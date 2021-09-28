@@ -58,6 +58,8 @@ The bot will post a status message to an SNS topic that can be forwarded to your
 ### Python virtualenv
 Create a virtualenv for the project and then install the dependencies:
 ```
+python3 -m venv venv
+. venv/bin/activate
 pip install -r requirements.txt
 ```
 
